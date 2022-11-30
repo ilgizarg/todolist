@@ -1,0 +1,4 @@
+<h2>Auth User</h2>
+<div *ngIf=" (AuthUser$ | async)">
+  {{ (AuthUser$ | async)?.firstname }}
+</div>
